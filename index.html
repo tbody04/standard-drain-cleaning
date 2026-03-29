@@ -4,12 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Standard Drain Cleaning</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Welcome to Standard Drain Cleaning</h1>
-    <p>Your one-stop solution for all drain cleaning needs.</p>
+    <header>
+        <div class="navbar">
+            <h1>Standard Drain Cleaning</h1>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Your Trusted Plumbing Services</h2>
+            <p>Fast, reliable, and professional drain cleaning services.</p>
+            <a href="#contact" class="btn">Get a Quote</a>
+        </div>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-item">
+                <h3>Drain Cleaning</h3>
+                <p>Expert drain cleaning services to keep your pipes flowing smoothly.</p>
+            </div>
+            <div class="service-item">
+                <h3>Pipe Repair</h3>
+                <p>Quality pipe repair services to prevent leaks and water damage.</p>
+            </div>
+            <div class="service-item">
+                <h3>Sewage Disposal</h3>
+                <p>Safe and efficient sewage disposal services for homes and businesses.</p>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial">
+            <p>“The team was fantastic! They arrived on time and fixed the problem quickly.”</p>
+            <cite>- John Doe</cite>
+        </div>
+        <div class="testimonial">
+            <p>“Great service, I highly recommend them for any plumbing issues.”</p>
+            <cite>- Jane Smith</cite>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
     <footer>
-        <p>Contact us at: info@standarddraincleaning.com</p>
+        <p>&copy; 2026 Standard Drain Cleaning. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
